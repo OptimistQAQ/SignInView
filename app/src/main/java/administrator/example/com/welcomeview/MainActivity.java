@@ -67,7 +67,6 @@ public class MainActivity extends AppCompatActivity {
         fragments.add(fragment3);
     }
 
-
     /**
      * 设置ViewPager的适配器和滑动监听
      */

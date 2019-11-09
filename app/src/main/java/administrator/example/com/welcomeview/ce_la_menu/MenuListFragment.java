@@ -11,9 +11,6 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.Toast;
 
-import com.squareup.picasso.Picasso;
-import com.squareup.picasso.Transformation;
-
 import administrator.example.com.welcomeview.R;
 
 public class MenuListFragment extends Fragment {

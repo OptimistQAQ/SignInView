@@ -20,6 +20,8 @@
         android:layout_height="match_parent"
         android:orientation="vertical">
 
+
+
         <android.support.design.widget.AppBarLayout
             android:id="@+id/appBarLayout"
             android:layout_width="match_parent"
@@ -27,6 +29,38 @@
             android:background="#00000000"
             >
         </android.support.design.widget.AppBarLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/menu_image"
+                android:layout_width="52dp"
+                android:layout_height="51dp"
+                android:layout_gravity="bottom"
+                android:layout_marginLeft="35dp"
+                android:background="@drawable/menu"
+                tools:ignore="ContentDescription,HardcodedText,RtlHardcoded,SpUsage" />
+
+            <ImageView
+                android:id="@+id/photo_image"
+                android:layout_width="52dp"
+                android:layout_height="52dp"
+                android:layout_gravity="bottom"
+                android:background="@drawable/photo"
+                android:layout_marginLeft="165dp"
+                tools:ignore="ContentDescription,RtlHardcoded" />
+
+            <ImageView
+                android:id="@+id/me_image"
+                android:layout_width="52dp"
+                android:layout_height="51dp"
+                android:layout_gravity="bottom"
+                android:layout_marginLeft="300dp"
+                android:background="@drawable/me"
+                tools:ignore="ContentDescription,HardcodedText,RtlHardcoded,SpUsage" />
+        </FrameLayout>
 
     </android.support.design.widget.CoordinatorLayout>
 
